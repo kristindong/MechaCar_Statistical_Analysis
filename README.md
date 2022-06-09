@@ -17,11 +17,11 @@ The results of the linear regression are summarized below.
 
 ## Summary Statistics on Suspension Coils
 
-
+PSI summary statistics for all suspension coil:
 ![total_summary](total_summary.png)
 
+PSI summary statistics by manufacturing lots:
 ![lot_summary](lot_summary.png)
 
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch (PSI). The current manufacturing data suggests that Lot 3 does not meet this design specification because it has a variance of 170. However, in total the variance is 62, which is below the acceptable threshold.
 
-and write a short summary using screenshots from your total_summary and lot_summary dataframes, and address the following question:
-The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
