@@ -45,8 +45,8 @@ Across all manufacturing lots, the p-value of the t-test is 0.06028, which is ab
 ![t_test_total](t_test_total.png)
 
 Repeating the t-test by manufacturing lot,
-- Lots 1 and 2 have p-values greater than 0.05; we conclude that their sample means are not statistically different than 1500
-- Lot 3 has a p-value below 0.05; we conclude that its sample mean is statistically different than 1500
+- Lots 1 and 2 have p-values greater than 0.05; we cannot reject H0 and we conclude that their sample means are not statistically different than 1500
+- Lot 3 has a p-value below 0.05; we reject H0 and conclude that its sample mean is statistically different than 1500
 
 ![t_test_lots](t_test_lots.png)
 
