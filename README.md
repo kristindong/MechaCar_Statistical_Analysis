@@ -4,12 +4,13 @@
 
 H0 : The slope is zero
 Ha : The slope is not zero
+Significance level: 0.05%
 
 The results of the linear regression are summarized below.
 
 ![regression_model](regression_model.png)
 
-1. Based on the data, and assuming a significance level of 0.05, vehicle length, ground clearance, and the intercept contributed non-random amounts of variance to the mpg values in this dataset. The p-values of these variables are below the significance level which means we can reject the hypothesis that their coefficients are zero.
+1. Based on the data, and assuming a significance level of 0.05%, vehicle length, ground clearance, and the intercept contributed non-random amounts of variance to the mpg values in this dataset. The p-values of these variables are below the significance level which means we can reject the hypothesis that their coefficients are zero.
 
 2. The p-value of the overall model is 5.35 x 10^-11. Therefore, there is sufficient evidence to reject the null hypothesis, which means that the slope of the linear model is not zero.
 
@@ -33,5 +34,15 @@ Based on the above criteria, lots 1 and 2 meet the design requirement but lot 3 
 
 
 ## T-Tests on Suspension Coils
+
+H0 : There is no statistical difference between the observed sample mean and its presumed population mean.
+Ha : There is a statistical difference between the observed sample mean and its presumed population mean.
+Significance level: 0.05%
+
+For the total suspencial coil sample,the p-value is 0.06028. Therefore, we don't have sufficient evidence to reject H0, which means that there is no statistical difference between the sample mean and the population mean of 1500.
+
+
+
+
 
 
