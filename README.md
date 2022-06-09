@@ -2,13 +2,13 @@
 
 ## Linear Regression to Predict MPG
 
-H0 : The slope is zero
-Ha : The slope is not zero
-Significance level: 0.05%
-
-The results of the linear regression are summarized below.
-
 ![regression_model](regression_model.png)
+
+- H0 : The slope is zero
+- Ha : The slope is not zero
+- Significance level: 0.05%
+
+
 
 1. Based on the data, and assuming a significance level of 0.05%, vehicle length, ground clearance, and the intercept contributed non-random amounts of variance to the mpg values in this dataset. The p-values of these variables are below the significance level which means we can reject the hypothesis that their coefficients are zero.
 
@@ -36,9 +36,9 @@ However, based on the above criteria, lots 1 and 2 meet the design requirement b
 
 ## T-Tests on Suspension Coils
 
-H0 : There is no statistical difference between the observed sample mean and its population mean of 1500 PSI
-Ha : There is a statistical difference between the observed sample mean and its population mean of 1500 PSI
-Significance level: 0.05%
+- H0 : There is no statistical difference between the observed sample mean and its population mean of 1500 PSI
+- Ha : There is a statistical difference between the observed sample mean and its population mean of 1500 PSI
+- Significance level: 0.05%
 
 Across all manufacturing lots, the p-value of the t-test is 0.06028, which is above our significance level. Therefore, we don't have sufficient evidence to reject H0, and we conclude that the sample mean not statistically different than 1500.
 
