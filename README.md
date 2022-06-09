@@ -20,23 +20,24 @@ The results of the linear regression are summarized below.
 
 The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch (PSI). 
 
+The manufacturing data suggests that totaled across all manufacturing lots, the suspension coils meet this design specification because the sample variance is 62 PSI, which is below the 100 threshold.
+
 Summary statistics on all suspension coils:
 
 ![total_summary](total_summary.png)
 
-The current manufacturing data suggests that totaled across all manufacturing lots, the suspension coils meet this design specification because the variance is 62 PSIs, which is below the 100 threshold.
 
-Summary statistics by manufacturing lots:
+However, based on the above criteria, lots 1 and 2 meet the design requirement but lot 3 does not.
 
 ![lot_summary](lot_summary.png)
 
-Based on the above criteria, lots 1 and 2 meet the design requirement but lot 3 does not.
+
 
 
 ## T-Tests on Suspension Coils
 
-H0 : There is no statistical difference between the observed sample mean and its population mean of 1500 PSI.
-Ha : There is a statistical difference between the observed sample mean and its population mean of 1500 PSI.
+H0 : There is no statistical difference between the observed sample mean and its population mean of 1500 PSI
+Ha : There is a statistical difference between the observed sample mean and its population mean of 1500 PSI
 Significance level: 0.05%
 
 Across all manufacturing lots, the p-value of the t-test is 0.06028, which is above our significance level. Therefore, we don't have sufficient evidence to reject H0, and we conclude that the sample mean not statistically different than 1500.
