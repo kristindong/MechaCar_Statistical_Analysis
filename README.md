@@ -24,7 +24,7 @@ Summary statistics on all suspension coils:
 
 ![total_summary](total_summary.png)
 
-The current manufacturing data suggests that in total, the suspension coils meet this design specification because the variance is 62 PSIs, which is below the 100 threshold.
+The current manufacturing data suggests that totaled across all manufacturing lots, the suspension coils meet this design specification because the variance is 62 PSIs, which is below the 100 threshold.
 
 Summary statistics by manufacturing lots:
 
@@ -35,14 +35,17 @@ Based on the above criteria, lots 1 and 2 meet the design requirement but lot 3 
 
 ## T-Tests on Suspension Coils
 
-H0 : There is no statistical difference between the observed sample mean and its presumed population mean.
-Ha : There is a statistical difference between the observed sample mean and its presumed population mean.
+H0 : There is no statistical difference between the observed sample mean and its population mean of 1500 PSI.
+Ha : There is a statistical difference between the observed sample mean and its population mean of 1500 PSI.
 Significance level: 0.05%
 
-For the total suspencial coil sample,the p-value is 0.06028. Therefore, we don't have sufficient evidence to reject H0, which means that there is no statistical difference between the sample mean and the population mean of 1500.
+Across all manufacturing lots, the p-value of the t-test is 0.06028, which is above our significance level. Therefore, we don't have sufficient evidence to reject H0, and we conclude that the sample mean not statistically different than 1500.
 
+![t_test_total](t_test_total.png)
 
+By lot, lots 1 and 2 have p-values greater than 0.05 and hence we conclude that their sample means are not statistically different than 1500. Lot 3 has a p-value below 0.05 and hence we conclude that its sample mean is statistically different than 1500.
 
+![t_test_lots](t_test_lots.png)
 
 
 
