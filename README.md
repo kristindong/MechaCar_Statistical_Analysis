@@ -23,12 +23,15 @@ Summary statistics on all suspension coils:
 
 ![total_summary](total_summary.png)
 
+The current manufacturing data suggests that in total, the suspension coils meet this design specification because the variance is 62 PSIs, which is below the 100 threshold.
+
 Summary statistics by manufacturing lots:
 
 ![lot_summary](lot_summary.png)
 
-The current manufacturing data suggests that Lot 3 does not meet this design specification since it has a variance of 170. However, the variance for all  suspension coils is 62 PSIs, which is below the 100 threshold. Hence, in total they meet the design requirement.
+Based on the above criteria, lots 1 and 2 meet the design requirement but lot 3 does not.
 
 
+## T-Tests on Suspension Coils
 
 
