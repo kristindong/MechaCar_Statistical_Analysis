@@ -14,3 +14,8 @@ The results of the linear regression are summarized below.
 2. The p-value of the overall model is 5.35 x 10^-11. Therefore, there is sufficient evidence to reject the null hypothesis, which means that the slope of the linear model is not zero.
 
 3. An R-squared of 0.71 indicates that this linear model does predict mpg of MechaCar prototypes effectively
+
+## Summary Statistics on Suspension Coils
+
+and write a short summary using screenshots from your total_summary and lot_summary dataframes, and address the following question:
+The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
