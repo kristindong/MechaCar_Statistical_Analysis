@@ -40,11 +40,13 @@ However, based on the above criteria, lots 1 and 2 meet the design requirement b
 - Ha : There is a statistical difference between the observed sample mean and its population mean of 1500 PSI
 - Significance level: 0.05%
 
-Across all manufacturing lots, the p-value of the t-test is 0.06028, which is above our significance level. Therefore, we don't have sufficient evidence to reject H0, and we conclude that the sample mean not statistically different than 1500.
+Across all manufacturing lots, the p-value of the t-test is 0.06028, which is above our significance level. Therefore, we don't have sufficient evidence to reject H0, and we conclude that the sample mean is not statistically different than 1500.
 
 ![t_test_total](t_test_total.png)
 
-By lot, lots 1 and 2 have p-values greater than 0.05 and hence we conclude that their sample means are not statistically different than 1500. Lot 3 has a p-value below 0.05 and hence we conclude that its sample mean is statistically different than 1500.
+Repeating the t-test by manufacturing lot,
+- Lots 1 and 2 have p-values greater than 0.05; we conclude that their sample means are not statistically different than 1500
+- Lot 3 has a p-value below 0.05; we conclude that its sample mean is statistically different than 1500
 
 ![t_test_lots](t_test_lots.png)
 
