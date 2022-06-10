@@ -2,6 +2,13 @@
 
 ## Linear Regression to Predict MPG
 
+Using the following independent variables, we test how well a multiple linear regression model predicts mpg values:
+1. valuesvehicle length
+2. vehicle weight
+3. spoiler angle
+4. ground clearance
+5. AWD 
+
 ![regression_model](regression_model.png)
 
 - H0 : The coefficient is zero
