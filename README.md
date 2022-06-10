@@ -3,13 +3,11 @@
 ## Linear Regression to Predict MPG
 
 Using the following independent variables, we test how well a multiple linear regression model predicts mpg values:
-1. valuesvehicle length
+1. vehicle length
 2. vehicle weight
 3. spoiler angle
 4. ground clearance
 5. AWD 
-
-![regression_model](regression_model.png)
 
 - H0 : The coefficient is zero
 - Ha : The coefficient is not zero
@@ -20,6 +18,9 @@ Based on the dataset, vehicle length, ground clearance, and the intercept have p
 The p-value of the overall model is 5.35 x 10^-11. Assuming a significance level of 0.05, there is sufficient evidence to reject the null hypothesis that all of the coefficients are zero. In other words, at least one coefficient of the linear model is not zero.
 
 The linear model has an R-squared of 0.71, suggesting that it effectively predicts the mpg values in the dataset.
+
+![regression_model](regression_model.png)
+
 
 ## Summary Statistics on Suspension Coils
 
